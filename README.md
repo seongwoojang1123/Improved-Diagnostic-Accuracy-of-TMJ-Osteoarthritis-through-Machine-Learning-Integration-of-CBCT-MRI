@@ -13,15 +13,10 @@ Temporomandibular joint osteoarthritis (TMJ OA) is a degenerative disorder that 
 This project investigates the diagnostic potential of CBCT and MRI imaging data using neural network models.
 
 Key aspects include:
-
 Preprocessing and harmonization of multimodal imaging datasets (CBCT, MRI)
-
 CNN-based classification models (VGG16) for image-based diagnosis
-
 Integration of patient demographic data (age, sex) with imaging features
-
 Ensemble and fine-tuning strategies across CBCT and MRI modalities
-
 AUROC evaluation with 95% CI and DeLong’s test for statistical comparisons
 
 ## Repository Structure
@@ -61,54 +56,32 @@ AUROC evaluation with 95% CI and DeLong’s test for statistical comparisons
 ## Models Used
 
 - **Neural Network Models**
-
-CNN (VGG16)
-
-Served as the baseline structure for classifying CBCT and MRI images
-
-Initial experiments applied VGG16 for OA vs Normal classification
-
+  CNN (VGG16)
+  Served as the baseline structure for classifying CBCT and MRI images
+  Initial experiments applied VGG16 for OA vs Normal classification
 
 - **Fine-Tuning (Transfer Learning)**
-
-Pretrained weights (e.g., ImageNet) applied to CBCT/MRI datasets
-
-Selective freezing/unfreezing of layers to optimize performance
-
-Conducted experiments on both single-modality (CBCT, MRI) and multimodal integration
-
+  Pretrained weights (e.g., ImageNet) applied to CBCT/MRI datasets
+  Selective freezing/unfreezing of layers to optimize performance
+  Conducted experiments on both single-modality (CBCT, MRI) and multimodal integration
 
 - **Ensemble**
-
-Late Fusion: Combined prediction probabilities from CBCT and MRI models for final diagnosis
-
-Fine-tuned Ensemble: Additional fine-tuning based on integrated CBCT & MRI datasets
-
-Goal: Achieve higher AUROC and more stable diagnostic performance compared to single models
-
+  Late Fusion: Combined prediction probabilities from CBCT and MRI models for final diagnosis
+  Fine-tuned Ensemble: Additional fine-tuning based on integrated CBCT & MRI datasets
+  Goal: Achieve higher AUROC and more stable diagnostic performance compared to single models
 
 ## Evaluation
-
 - Performance Metrics
-
-AUROC (with 95% CI)
-
-Accuracy
-
-Confusion Matrix (including sensitivity and specificity)
+  AUROC (with 95% CI)
+  Accuracy
+  Confusion Matrix (including sensitivity and specificity)
 
 - Statistical Comparison
-
-DeLong’s test performed to compare AUROC differences across models
-
-Pairwise comparisons:
-
-CBCT vs MRI
-
-Baseline vs New Images
-
-Single Modality vs Multimodal Integration (CBCT & MRI fusion)
-
+  DeLong’s test performed to compare AUROC differences across models
+  Pairwise comparisons:
+  CBCT vs MRI
+  Baseline vs New Images
+  Single Modality vs Multimodal Integration (CBCT & MRI fusion)
 
 ## Contact
 
