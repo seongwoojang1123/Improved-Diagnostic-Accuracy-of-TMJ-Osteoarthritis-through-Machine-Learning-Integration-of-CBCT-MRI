@@ -7,7 +7,7 @@ The repository includes data preprocessing, model training, evaluation, and visu
 
 This work primarily leverages CNN-based deep learning approaches (VGG16, Fine-Tuning strategies, and Ensemble methods) applied to CBCT and MRI imaging data. The study explores how multimodal integration of imaging modalities can enhance diagnostic performance compared to single-modality approaches.
 
-#Project Overview
+# Project Overview
 
 Temporomandibular joint osteoarthritis (TMJ OA) is a degenerative disorder that significantly impacts oral function and patients’ quality of life.
 This project investigates the diagnostic potential of CBCT and MRI imaging data using neural network models.
