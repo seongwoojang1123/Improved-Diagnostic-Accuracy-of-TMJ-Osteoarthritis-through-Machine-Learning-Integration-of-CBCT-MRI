@@ -1,5 +1,5 @@
 # Improved Diagnostic Accuracy of TMJ Osteoarthritis through Machine Learning Integration of CBCT and MRI
-This repository contains the official code for the study
+- This repository contains the official code for the study
 "Improved Diagnostic Accuracy of TMJ Osteoarthritis through Machine Learning Integration of CBCT and MRI"
 by Yeon-Hee Lee, Seongwoo Jang, Seonggwang Jeon, Q–Schick Auh, and Akhilanand Chaurasia.
 
@@ -9,7 +9,7 @@ This work primarily leverages CNN-based deep learning approaches (VGG16, Fine-Tu
 
 ## Project Overview
 
-Temporomandibular joint osteoarthritis (TMJ OA) is a degenerative disorder that significantly impacts oral function and patients’ quality of life.
+- Temporomandibular joint osteoarthritis (TMJ OA) is a degenerative disorder that significantly impacts oral function and patients’ quality of life.
 This project investigates the diagnostic potential of CBCT and MRI imaging data using neural network models.
 
 Key aspects include:
@@ -57,19 +57,19 @@ AUROC evaluation with 95% CI and DeLong’s test for statistical comparisons
 
 - **Neural Network Models**
 
-  CNN (VGG16)
+  - CNN (VGG16)
   Served as the baseline structure for classifying CBCT and MRI images
   Initial experiments applied VGG16 for OA vs Normal classification
 
 - **Fine-Tuning (Transfer Learning)**
 
-  Pretrained weights (e.g., ImageNet) applied to CBCT/MRI datasets
+  - Pretrained weights (e.g., ImageNet) applied to CBCT/MRI datasets
   Selective freezing/unfreezing of layers to optimize performance
   Conducted experiments on both single-modality (CBCT, MRI) and multimodal integration
 
 - **Ensemble**
 
-  Late Fusion: Combined prediction probabilities from CBCT and MRI models for final diagnosis
+  - Late Fusion: Combined prediction probabilities from CBCT and MRI models for final diagnosis
   Fine-tuned Ensemble: Additional fine-tuning based on integrated CBCT & MRI datasets
   Goal: Achieve higher AUROC and more stable diagnostic performance compared to single models
 
