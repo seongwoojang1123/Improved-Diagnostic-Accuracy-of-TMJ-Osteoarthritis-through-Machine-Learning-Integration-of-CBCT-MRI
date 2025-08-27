@@ -56,19 +56,22 @@ AUROC evaluation with 95% CI and DeLong’s test for statistical comparisons
 ## Models Used
 
 - **Neural Network Models**
-   CNN (VGG16)
-   Served as the baseline structure for classifying CBCT and MRI images
-   Initial experiments applied VGG16 for OA vs Normal classification
+
+  CNN (VGG16)
+  Served as the baseline structure for classifying CBCT and MRI images
+  Initial experiments applied VGG16 for OA vs Normal classification
 
 - **Fine-Tuning (Transfer Learning)**
-   Pretrained weights (e.g., ImageNet) applied to CBCT/MRI datasets
-   Selective freezing/unfreezing of layers to optimize performance
-   Conducted experiments on both single-modality (CBCT, MRI) and multimodal integration
+
+  Pretrained weights (e.g., ImageNet) applied to CBCT/MRI datasets
+  Selective freezing/unfreezing of layers to optimize performance
+  Conducted experiments on both single-modality (CBCT, MRI) and multimodal integration
 
 - **Ensemble**
-   Late Fusion: Combined prediction probabilities from CBCT and MRI models for final diagnosis
-   Fine-tuned Ensemble: Additional fine-tuning based on integrated CBCT & MRI datasets
-   Goal: Achieve higher AUROC and more stable diagnostic performance compared to single models
+
+  Late Fusion: Combined prediction probabilities from CBCT and MRI models for final diagnosis
+  Fine-tuned Ensemble: Additional fine-tuning based on integrated CBCT & MRI datasets
+  Goal: Achieve higher AUROC and more stable diagnostic performance compared to single models
 
 ## Evaluation
 - Performance Metrics
