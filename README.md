@@ -1,5 +1,5 @@
 # Improved Diagnostic Accuracy of TMJ Osteoarthritis through Machine Learning Integration of CBCT and MRI
-- This repository contains the official code for the study
+This repository contains the official code for the study
 "Improved Diagnostic Accuracy of TMJ Osteoarthritis through Machine Learning Integration of CBCT and MRI"
 by Yeon-Hee Lee, Seongwoo Jang, Seonggwang Jeon, Q–Schick Auh, and Akhilanand Chaurasia.
 
@@ -9,7 +9,7 @@ This work primarily leverages CNN-based deep learning approaches (VGG16, Fine-Tu
 
 ## Project Overview
 
-- Temporomandibular joint osteoarthritis (TMJ OA) is a degenerative disorder that significantly impacts oral function and patients’ quality of life.
+Temporomandibular joint osteoarthritis (TMJ OA) is a degenerative disorder that significantly impacts oral function and patients’ quality of life.
 This project investigates the diagnostic potential of CBCT and MRI imaging data using neural network models.
 
 Key aspects include:
