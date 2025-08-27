@@ -26,33 +26,33 @@ AUROC evaluation with 95% CI and DeLong’s test for statistical comparisons
 
 # Repository Structure
 
--1_data_preprocessing.ipynb  
+- 1_data_preprocessing.ipynb  
     Image resizing, normalization, patient ID matching, and label encoding  
 
--2_data_initial_analyze.ipynb  
+- 2_data_initial_analyze.ipynb  
     Dataset statistics (age, sex, OA distribution), class balance check  
 
--3_Image_initial_analyze.ipynb  
+- 3_Image_initial_analyze.ipynb  
     Visualization of representative CBCT and MRI images  
     Basic image quality assessment (resolution, contrast)  
     Exploratory visualization of OA vs Normal differences  
 
--4_Image_Preprocessing.ipynb  
+- 4_Image_Preprocessing.ipynb  
     Image augmentation (rotation, flipping, brightness adjustment)  
     Noise filtering and cropping for ROI (Region of Interest)  
     Alignment of multimodal data (CBCT vs MRI consistency)  
 
--5_TMJ_OA_CBCT_MRI_Training.ipynb  
+- 5_TMJ_OA_CBCT_MRI_Training.ipynb  
     CNN-based training with VGG16 (baseline)  
     Fine-tuning with additional CBCT & MRI combined datasets  
     Ensemble strategies (e.g., late fusion of CBCT and MRI models)  
     Training/validation curve visualization, performance reporting  
 
--6_Case_Delong's_test.ipynb  
+- 6_Case_Delong's_test.ipynb  
     Statistical comparison of AUROC across models (CBCT vs MRI vs Ensemble)  
     Pairwise DeLong’s test for significance testing  
     Visualization of ROC curves with 95% CI  
     Heatmap of p-values between experimental conditions  
 
--README.md  
+- README.md  
     Project overview, setup guide, and usage instructions
