@@ -49,6 +49,12 @@ AUROC evaluation with 95% CI and DeLong’s test for statistical comparisons
   - Visualization of ROC curves with 95% CI  
   - Heatmap of p-values between experimental conditions  
 
+- **7_Feature_map_and_Gradcam_heatmap.ipynb** 
+  - enerates Grad-CAM (hookless) at the last conv layer and saves RGB overlays per case.
+  - Captures pre-/post-ReLU tensors via precise forward hooks and exports channel tiles.
+  - Computes four sparsity metrics: pre_sign, pre_eps, post_zero, post_eps, and reports as a table.
+  - Logs Normalize/Conv-idx/ε for reproducibility and prints per-case CAM paths + hints.
+
 - **README.md**  
   - Project overview, setup guide, and usage instructions
  
