@@ -98,7 +98,7 @@ For any inquiries or collaboration opportunities:
 
 - Yeon-Hee Lee: omod0209@gmail.com
 
-- Seongwoo Jang: mook8105@cuk.edu
+- Seongwoo Jang: mook8105@koreacu.ac.kr
 
 - Seonggwang Jeon: qq22512@hanyang.ac.kr
 
